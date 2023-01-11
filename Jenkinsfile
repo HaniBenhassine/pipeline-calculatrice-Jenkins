@@ -4,7 +4,7 @@ pipeline {
         stage('Branch') {
             agent any
             steps {
-                echo 'nom-de-la-branche'
+                echo 'Hello ceci est un test de Webhook'
             }
         }
         stage('Build') {
